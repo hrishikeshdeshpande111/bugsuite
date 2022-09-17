@@ -1,0 +1,187 @@
+p{
+        color:rgb(99, 99, 107);
+        font-weight: 100;
+        font-family: poppins;
+        font-size: 16px;
+        width: 450px;
+    }
+
+body{
+    margin: 0;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    box-shadow: rgb(77, 82, 94, 0.15) 0px 0px 14px 0px;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.ham-icon{
+height: 35px;
+margin-left: 10px;
+}
+
+.ham-icon:hover{
+    cursor: pointer;
+}
+
+
+.knot-logo{
+    margin-left: 15px;
+    left: 50;
+    width: 75px;
+    height: 75px;
+    margin-right: -15px;
+}
+
+.knot-logo:hover{
+    cursor:pointer;
+}
+
+.middle-section{
+    display: flex;
+    width: 500px;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+    margin: ;
+}
+
+.yt-icon{
+    height: 20px;
+    margin-left: 50px;
+}
+
+
+.tabs{  
+    font-family: roboto, Arial;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.tabs:hover{
+    cursor: pointer;
+    color: rgb(0, 157, 255);
+}
+
+
+.page1{
+    display: flex;
+    top: 0;
+    font-family: roboto,Arial;
+    margin-top: 90px;
+    height: 630px;
+    background-color: rgb(240, 244, 248);
+    box-shadow: inset 0 -10px 10px -10px black;
+    margin-bottom: 0%;
+}
+
+
+.ip-box{
+    display: flexbox;
+    margin-top: 200px;
+    margin-left: 170px;
+    font-family: poppins;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    height: 210px;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    padding: 0px;
+    
+    
+}
+
+.ip-head{
+    margin-top: -10px;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(48, 48, 54);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.three-but{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.red-c{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.yellow-c{
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.green-c{
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.gm{
+    color: red;
+    font-family: poppins;
+    font-size:35px;
+}
+
+.page2{
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+
+.para{
+    margin-top: 190px;
+    margin-left: 180px;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(48, 48, 54);
+}
+
+span{
+    font-family: Poppins,Arial;
+    font-size: 12px;
+    line-height: 1.5;
+}
