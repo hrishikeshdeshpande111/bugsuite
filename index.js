@@ -38,7 +38,7 @@ app.post("/contact",(req,res)=>{
         console.log("Record Inserted Successfully");
     });
 
-    return res.redirect('bugsuite.html')
+    return res.redirect('index.html')
 
 })
 
@@ -47,7 +47,7 @@ app.get("/",(req,res)=>{
     res.set({
         "Allow-access-Allow-Origin": '*'
     })
-    return res.redirect('bugsuite.html');
+    return res.redirect('index.html');
 }).listen(3000);
 
 
